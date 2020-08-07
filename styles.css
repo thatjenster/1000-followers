@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.icon {
+    font: 700 3rem 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    background: url(rainbow.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-size: 600px 450px;
+    animation: move 50s infinite;
+}
+
+@keyframes move {
+    100% {
+        background-position: 5000px 0;
+    }
+}
